@@ -4,11 +4,11 @@ import { ReactNode } from 'react'
 type Props = {
   url: string
   icon: ReactNode
-}
+} & React.AnchorHTMLAttributes<HTMLAnchorElement>
 
-export const ProfileNavIcon = ({ url, icon }: Props) => {
+export const ProfileNavIcon = ({ url, icon, ...props }: Props) => {
   return (
-    <Link href={url} target="_blank">
+    <Link href={url} target="_blank" {...props}>
       {icon}
     </Link>
   )
