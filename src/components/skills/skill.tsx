@@ -22,6 +22,10 @@ export const skillSet: TSkillBadge[] = [
         title: "GCloud"
     },
     {
+      iconName: "aws",
+      title: "AWS"
+    },
+    {
         iconName: "nestjs",
         title: "NestJS"
     },

@@ -2,7 +2,7 @@ import { Subtitle } from "@/components/text/subtitle";
 import StackIcon from "tech-stack-icons"
 
 export type TSkillBadge = {
-    iconName: 'typescript' | 'python' | 'reactjs' | 'docker' | 'gcloud' | 'nestjs' | 'git' | 'linux' | 'java' | 'go' | 'postgresql';
+    iconName: 'typescript' | 'python' | 'reactjs' | 'docker' | 'gcloud' | 'nestjs' | 'git' | 'linux' | 'java' | 'go' | 'postgresql' | 'aws';
     title: string;
 }
 
