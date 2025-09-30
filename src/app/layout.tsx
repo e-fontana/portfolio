@@ -15,9 +15,7 @@ const montserrat = Montserrat({
 });
 
 async function getTranslations(locale: string) {
-  const res = await fetch(
-    `http://localhost:3000/locales/${locale}/common.json`,
-  );
+  const res = await fetch(`${process.env.NEXT_PUBLIC_BASE_URL}/locales/${locale}/common.json`);
   return res.json();
 }
 
