@@ -1,9 +1,9 @@
-import { About } from '@/components/about'
-import { Contact } from '@/components/contact'
-import { Header } from '@/components/header'
-import { Profile } from '@/components/profile'
-import { Projects } from '@/components/projects'
-import { Skills } from '@/components/skills'
+import { About } from "@/components/about";
+import { Contact } from "@/components/contact";
+import { Header } from "@/components/header";
+import { Profile } from "@/components/profile";
+import { Projects } from "@/components/projects";
+import { Skills } from "@/components/skills";
 
 export default function Home() {
   return (
@@ -13,13 +13,13 @@ export default function Home() {
         <Profile />
         <About />
       </div>
-      <div className='flex bg-zinc-800 w-full gap-8 px-16 h-64'>
+      <div className="flex h-64 w-full gap-8 bg-zinc-800 px-16">
         <Skills />
       </div>
-      <div className='px-16 h-64 w-full'>
+      <div className="h-64 w-full px-16">
         <Projects />
         <Contact />
       </div>
     </main>
-  )
+  );
 }
