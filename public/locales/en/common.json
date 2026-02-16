@@ -1,0 +1,12 @@
+{
+    "profile": {
+        "title": "FULLSTACK DEVELOPER"
+    },
+    "nav": {
+        "profile": "Profile",
+        "about": "About",
+        "projects": "Projects",
+        "skills": "Skills",
+        "contact": "Contact"
+    }
+}
