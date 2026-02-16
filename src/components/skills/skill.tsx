@@ -48,5 +48,13 @@ export const skillSet: TSkillBadge[] = [
     {
         iconName: "postgresql",
         title: "PostgreSQL"
+    },
+    {
+        iconName: "graphql",
+        title: "GraphQL"
+    },
+    {
+        iconName: "vuejs",
+        title: "Vue"
     }
 ]
