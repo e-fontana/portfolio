@@ -62,7 +62,7 @@ export function LanguageProvider({
       return;
     }
 
-    fetch(`/assets/locales/${newLocale}/common.json`)
+    fetch(`${process.env.NEXT_PUBLIC_BASE_URL}/locales/${newLocale}/common.json`)
       .then((res) => res.json())
       .then((data) => setTranslationsMap(data))
       .catch(console.error);

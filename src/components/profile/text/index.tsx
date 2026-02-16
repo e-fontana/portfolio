@@ -8,14 +8,12 @@ import { Title } from "@/components/text/title";
 export const ProfileText = () => {
   const { locale, translations } = useLanguage();
 
-  console.log(translations("title"));
-
   return (
     <div className="flex flex-col gap-0 text-xl">
       <Subtitle>Hi there 👋, I&apos;m</Subtitle>
       <Title className="text-xl">EDUARDO FONTANA</Title>
       <Subtitle className="font-medium text-green-600">
-        {locale === "en" ? "FULLSTACK DEVELOPER" : "DESENVOLVEDOR FULLSTACK"}
+        {translations("profile.title")}
       </Subtitle>
     </div>
   );
