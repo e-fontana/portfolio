@@ -4,9 +4,9 @@ type Props = {
     children: React.ReactNode;
 } & React.HTMLAttributes<HTMLHeadingElement>;
 
-export const Title = ({ children, className, ...rest }: Props) => {
+export const Title = ({ children, className, ...params }: Props) => {
     return (
-        <h1 className={twMerge("text-zinc-200 font-bold text-xl", className)} {...rest}>
+        <h1 className={twMerge("text-zinc-200 font-bold text-xl", className)} {...params}>
             {children}
         </h1>
     )

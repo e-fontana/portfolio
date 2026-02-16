@@ -4,9 +4,9 @@ type Props = {
     children: React.ReactNode;
 } & React.HTMLAttributes<HTMLParagraphElement>;
 
-export const Text = ({ children, ...rest }: Props) => {
+export const Text = ({ children, ...params }: Props) => {
     return (
-        <p {...rest}>
+        <p {...params}>
             {children}
         </p>
     )
