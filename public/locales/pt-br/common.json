@@ -1,5 +1,7 @@
 {
-    "title": "FULLSTACK DEVELOPER",
+    "profile": {
+        "title": "DESENVOLVEDOR FULLSTACK"
+    },
     "nav": {
         "profile": "Perfil",
         "about": "Sobre",
