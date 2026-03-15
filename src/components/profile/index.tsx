@@ -5,7 +5,11 @@ import { ProfileBody, ProfileText } from "./text";
 
 export const Profile = () => {
   return (
-    <section id="profile" className="grid w-full gap-10 lg:grid-cols-2 lg:gap-12">
+    <section
+      id="profile"
+      className="grid w-full gap-10 lg:grid-cols-2 lg:gap-12"
+      aria-labelledby="profile-title"
+    >
       <Stagger
         className="order-2 flex flex-col items-start justify-center gap-4 lg:order-1"
         delayChildren={0.05}
