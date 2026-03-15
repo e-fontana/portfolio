@@ -1,12 +1,114 @@
 {
-    "profile": {
-        "title": "DESENVOLVEDOR FULLSTACK"
-    },
-    "nav": {
-        "profile": "Perfil",
-        "about": "Sobre",
-        "projects": "Projetos",
-        "skills": "Habilidades",
-        "contact": "Contato"
+  "nav": {
+    "profile": "Perfil",
+    "about": "Sobre",
+    "projects": "Projetos",
+    "skills": "Habilidades",
+    "contact": "Contato",
+    "menu": "Menu",
+    "open": "Abrir menu de navegação",
+    "close": "Fechar menu de navegação"
+  },
+  "profile": {
+    "greeting": "Hi there 👋, I'm",
+    "title": "DESENVOLVEDOR FULLSTACK",
+    "body": "Sempre em busca de novos projetos e ideias para impulsionar a inovação. Estudante de Engenharia da Computação na Universidade Federal da Bahia (UFBA), movido pela paixão por tecnologia e pelo compromisso com aprendizado e desenvolvimento contínuo."
+  },
+  "about": {
+    "paragraph1": "Estudante de Engenharia da Computação na UFBA com experiência em Go, TypeScript, Java, Python e C#. Sou especializado no desenvolvimento de sistemas escaláveis e distribuídos, com foco em microsserviços (gRPC, Protobuf, Kubernetes, Docker) e integração com bancos MySQL e PostgreSQL.",
+    "paragraph2": "Tenho experiência na construção de plataformas de e-commerce, automação de processos (RPA) e desenvolvimento de soluções internas para empresas.",
+    "paragraph3": "Também atuo com infraestrutura em AWS e GCP seguindo metodologias ágeis (Scrum/Kanban). Sou apaixonado por tecnologia e inovação, sempre buscando evoluir minhas habilidades e aplicar boas práticas de engenharia de software."
+  },
+  "timeline": {
+    "title": "Uma linha do tempo da minha trajetória",
+    "subtitle": "Quer saber mais sobre como construí minha experiência até então? Aqui estão alguns projetos que marcaram a minha jornada.",
+    "present": "Atual",
+    "items": {
+      "titan": {
+        "start": "Jun 2025",
+        "end": "Atual",
+        "title": "Gerente de Desenvolvimento Backend",
+        "organization": "TITAN Computação Inteligente",
+        "description": "Atua na condução de projetos backend para clientes reais, coordenando times, organizando o fluxo de entregas e liderando iniciativas estratégicas com foco em eficiência operacional, colaboração e entrega consistente."
+      },
+      "42lux": {
+        "start": "Jan 2024",
+        "end": "Atual",
+        "title": "Estagiário em Desenvolvimento de Software",
+        "organization": "42Lux",
+        "description": "Desenvolveu, monitorou e testou um sistema de RPA de alta performance para operações de iluminação pública. A solução automatizou fluxos críticos, removeu gargalos e elevou a produtividade em cerca de 100 vezes, reduzindo erros manuais."
+      },
+      "cotabox": {
+        "start": "Dez 2025",
+        "end": "Atual",
+        "title": "Estagiário em Engenharia de Software",
+        "organization": "Cotabox",
+        "description": "Atua em um produto real utilizado por diversos clientes, desenvolvendo funcionalidades e evoluções com Vue.js e GraphQL em ambiente de produção."
+      },
+      "foxtrot": {
+        "start": "Maio 2023",
+        "end": "Dez 2024",
+        "title": "Estagiário em Desenvolvimento de Software",
+        "organization": "Foxtrot Instrumentos Musicais",
+        "description": "Desenvolveu uma plataforma de e-commerce do zero, cobrindo modelagem de banco de dados, regras de negócio, interface, segurança, autenticação, manutenção de servidores e ferramentas internas com integrações MySQL e PostgreSQL."
+      },
+      "ufba": {
+        "start": "2023",
+        "end": "Atual",
+        "title": "Bacharelado em Engenharia da Computação",
+        "organization": "Universidade Federal da Bahia",
+        "description": "Graduação com foco em engenharia de software, sistemas distribuídos, infraestrutura em nuvem e desenvolvimento de aplicações escaláveis."
+      },
+      "anchieta": {
+        "start": "2020",
+        "end": "2022",
+        "title": "Ensino Médio",
+        "organization": "Colégio Anchieta",
+        "description": "Conclusão da educação básica antes do início da graduação em Engenharia da Computação na UFBA."
+      }
     }
+  },
+  "contact": {
+    "title": "Interessado em trabalhar comigo?",
+    "subtitle": "Vamos conversar. O café é por minha conta!",
+    "description": "Envie uma mensagem rápida com sua ideia, produto ou contexto do time. O formulário valida os dados e envia tudo direto pela API de contato configurada.",
+    "fields": {
+      "name": "Nome",
+      "namePlaceholder": "Seu nome",
+      "email": "Email",
+      "emailPlaceholder": "voce@exemplo.com",
+      "project": "Projeto",
+      "projectPlaceholder": "O que voce esta construindo?",
+      "message": "Mensagem",
+      "messagePlaceholder": "Conte sobre o problema, prazo e o que voce precisa."
+    },
+    "footer": "O formulário valida suas informações antes do envio.",
+    "submitting": "Enviando...",
+    "submit": "Enviar mensagem",
+    "status": {
+      "success": "Mensagem enviada. Obrigado por entrar em contato!",
+      "error": "Não foi possivel enviar sua mensagem agora."
+    },
+    "errors": {
+      "name": {
+        "required": "Digite seu nome.",
+        "min": "O nome deve ter pelo menos 2 caracteres.",
+        "max": "O nome deve ter no maximo 80 caracteres."
+      },
+      "email": {
+        "required": "Digite seu email.",
+        "invalid": "Digite um email valido."
+      },
+      "project": {
+        "required": "Digite o nome do projeto.",
+        "min": "O projeto deve ter pelo menos 2 caracteres.",
+        "max": "O projeto deve ter no maximo 120 caracteres."
+      },
+      "message": {
+        "required": "Digite sua mensagem.",
+        "min": "A mensagem deve ter pelo menos 20 caracteres.",
+        "max": "A mensagem deve ter no maximo 2000 caracteres."
+      }
+    }
+  }
 }

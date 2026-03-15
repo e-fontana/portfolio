@@ -4,7 +4,7 @@ import { SwitchComponent } from "./switch"
 
 export const LanguageSwitch = () => {
     return (
-        <div className="flex items-center justify-center gap-4">
+        <div className="flex shrink-0 items-center justify-center gap-4">
             <SwitchComponent />
         </div>
     )
