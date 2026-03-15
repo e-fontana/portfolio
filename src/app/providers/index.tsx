@@ -1,6 +1,7 @@
 import { cookies } from "next/dist/server/request/cookies";
 import { Toaster } from "sonner";
 import { LanguageProvider, TLanguage } from "../contexts/LanguageContexts";
+import { GoogleAnalytics } from "@next/third-parties/google"
 
 async function getTranslations(locale: string) {
   const res = await fetch(`${process.env.NEXT_PUBLIC_BASE_URL}/locales/${locale}/common.json`);
@@ -21,6 +22,7 @@ export async function Providers({ children }: { children: React.ReactNode }) {
         >
             {children}
             <Toaster />
+            <GoogleAnalytics gaId={process.env.GOOGLE_ANALYTICS_ID as string} />
         </LanguageProvider>
     );
 }
