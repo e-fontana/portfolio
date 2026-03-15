@@ -11,7 +11,9 @@ export const ProfileText = () => {
   return (
     <div className="flex flex-col gap-1 text-lg sm:text-xl">
       <Subtitle>{translations("profile.greeting")}</Subtitle>
-      <Title className="text-3xl sm:text-4xl lg:text-5xl">EDUARDO FONTANA</Title>
+      <Title id="profile-title" className="text-3xl sm:text-4xl lg:text-5xl">
+        EDUARDO FONTANA
+      </Title>
       <Subtitle className="text-base font-medium text-green-600 sm:text-lg">
         {translations("profile.title")}
       </Subtitle>
