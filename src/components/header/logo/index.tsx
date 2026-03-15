@@ -1,13 +1,13 @@
-import Link from "next/link"
+import Link from "next/link";
 
-export const Logo = () => {
-    return (
-        <Link href='/'>
-            <h1 className="flex items-center justify-center text-2xl">
-                <span className="text-green-600 font-extrabold">{'<'}</span>
-                <span className="font-extrabold pr-2">{'Eduardo Fontana'}</span>
-                <span className="text-green-600 font-extrabold">{'/>'}</span>
-            </h1>
-        </Link>
-    )
-}
+export const Logo = ({ text }: { text: string }) => {
+  return (
+    <Link href="/">
+      <h1 className="flex items-center whitespace-nowrap text-xl sm:text-2xl">
+        <span className="font-extrabold text-green-600">{"<"}</span>
+        <span className="pr-2 font-extrabold">{text}</span>
+        <span className="font-extrabold text-green-600">{"/>"}</span>
+      </h1>
+    </Link>
+  );
+};

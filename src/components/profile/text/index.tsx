@@ -6,13 +6,13 @@ import { Text } from "@/components/text/text";
 import { Title } from "@/components/text/title";
 
 export const ProfileText = () => {
-  const { locale, translations } = useLanguage();
+  const { translations } = useLanguage();
 
   return (
-    <div className="flex flex-col gap-0 text-xl">
-      <Subtitle>Hi there 👋, I&apos;m</Subtitle>
-      <Title className="text-xl">EDUARDO FONTANA</Title>
-      <Subtitle className="font-medium text-green-600">
+    <div className="flex flex-col gap-1 text-lg sm:text-xl">
+      <Subtitle>{translations("profile.greeting")}</Subtitle>
+      <Title className="text-3xl sm:text-4xl lg:text-5xl">EDUARDO FONTANA</Title>
+      <Subtitle className="text-base font-medium text-green-600 sm:text-lg">
         {translations("profile.title")}
       </Subtitle>
     </div>
@@ -20,13 +20,12 @@ export const ProfileText = () => {
 };
 
 export const ProfileBody = () => {
+  const { translations } = useLanguage();
+
   return (
     <div className="w-full max-w-[600px] text-balance">
-      <Text className="text-lg">
-        Constantly seeking new projects and ideas to drive innovation. A
-        Computer Engineering student at Universidade Federal da Bahia (UFBA),
-        driven by a passion for technology and a commitment to continuous
-        learning and development.
+      <Text className="text-base leading-7 sm:text-lg">
+        {translations("profile.body")}
       </Text>
     </div>
   );

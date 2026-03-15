@@ -1,12 +1,114 @@
 {
-    "profile": {
-        "title": "FULLSTACK DEVELOPER"
-    },
-    "nav": {
-        "profile": "Profile",
-        "about": "About",
-        "projects": "Projects",
-        "skills": "Skills",
-        "contact": "Contact"
+  "nav": {
+    "profile": "Profile",
+    "about": "About",
+    "projects": "Projects",
+    "skills": "Skills",
+    "contact": "Contact",
+    "menu": "Menu",
+    "open": "Open navigation menu",
+    "close": "Close navigation menu"
+  },
+  "profile": {
+    "greeting": "Hi there 👋, I'm",
+    "title": "FULLSTACK DEVELOPER",
+    "body": "Constantly seeking new projects and ideas to drive innovation. A Computer Engineering student at Universidade Federal da Bahia (UFBA), driven by a passion for technology and a commitment to continuous learning and development."
+  },
+  "about": {
+    "paragraph1": "Computer Engineering student at UFBA with experience in Go, TypeScript, Java, Python, and C#. I specialize in developing scalable and distributed systems, focusing on microservices (gRPC, Protobuf, Kubernetes, Docker) and integrating MySQL and PostgreSQL databases.",
+    "paragraph2": "I have experience in building e-commerce platforms, process automation (RPA), and developing internal business solutions.",
+    "paragraph3": "I also work with AWS and GCP infrastructure while following AGILE methodologies (Scrum/Kanban). Passionate about technology and innovation, always striving to enhance my skills and apply the best software engineering practices."
+  },
+  "timeline": {
+    "title": "A timeline of my trajectory",
+    "subtitle": "Want to know more about how I built my experience so far? Here are some projects that have shaped my journey.",
+    "present": "Present",
+    "items": {
+      "titan": {
+        "start": "Jun 2025",
+        "end": "Present",
+        "title": "Backend Development Manager",
+        "organization": "TITAN Computacao Inteligente",
+        "description": "Leads backend project execution for real clients, coordinating teams, organizing delivery flow, and driving strategic initiatives focused on efficient processes, collaboration, and consistent delivery."
+      },
+      "42lux": {
+        "start": "Jan 2024",
+        "end": "Present",
+        "title": "Software Development Intern",
+        "organization": "42Lux",
+        "description": "Built, monitored, and tested a high-performance RPA system for public lighting operations. The solution automated critical workflows, removed bottlenecks, and improved productivity by roughly 100x while reducing manual errors."
+      },
+      "cotabox": {
+        "start": "Dec 2025",
+        "end": "Present",
+        "title": "Software Engineer Intern",
+        "organization": "Cotabox",
+        "description": "Works on a real product used by multiple clients, building features and product improvements with Vue.js and GraphQL in a production environment."
+      },
+      "foxtrot": {
+        "start": "May 2023",
+        "end": "Dec 2024",
+        "title": "Software Development Intern",
+        "organization": "Foxtrot Instrumentos Musicais",
+        "description": "Developed an e-commerce platform from scratch, covering database modeling, business logic, UI implementation, security, authentication, server maintenance, and internal tools with MySQL and PostgreSQL integrations."
+      },
+      "ufba": {
+        "start": "2023",
+        "end": "Present",
+        "title": "BSc in Computer Engineering",
+        "organization": "Universidade Federal da Bahia",
+        "description": "Undergraduate studies focused on software engineering, distributed systems, cloud infrastructure, and scalable application development."
+      },
+      "anchieta": {
+        "start": "2020",
+        "end": "2022",
+        "title": "High School",
+        "organization": "Colegio Anchieta",
+        "description": "Completed secondary education before starting the Computer Engineering degree at UFBA."
+      }
     }
+  },
+  "contact": {
+    "title": "Interested in working together?",
+    "subtitle": "Let's talk. The coffee is on me!",
+    "description": "Send a quick message with your idea, product, or team context. The form validates the details and sends them directly through the configured contact API.",
+    "fields": {
+      "name": "Name",
+      "namePlaceholder": "Your name",
+      "email": "Email",
+      "emailPlaceholder": "you@example.com",
+      "project": "Project",
+      "projectPlaceholder": "What are you building?",
+      "message": "Message",
+      "messagePlaceholder": "Tell me about the problem, timeline, and what you need."
+    },
+    "footer": "The form validates your info before sending it.",
+    "submitting": "Sending...",
+    "submit": "Send message",
+    "status": {
+      "success": "Message sent. I'll get back to you soon.",
+      "error": "Couldn't send your message right now."
+    },
+    "errors": {
+      "name": {
+        "required": "Enter your name.",
+        "min": "Name must have at least 2 characters.",
+        "max": "Name must have at most 80 characters."
+      },
+      "email": {
+        "required": "Enter your email address.",
+        "invalid": "Enter a valid email address."
+      },
+      "project": {
+        "required": "Enter your project name.",
+        "min": "Project must have at least 2 characters.",
+        "max": "Project must have at most 120 characters."
+      },
+      "message": {
+        "required": "Enter your message.",
+        "min": "Message must have at least 20 characters.",
+        "max": "Message must have at most 2000 characters."
+      }
+    }
+  }
 }
